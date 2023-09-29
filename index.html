@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Capstone Project</title>
+    <title>Home | Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
     crossorigin="anonymous">
@@ -22,68 +22,67 @@
 <body>
     <section id="home-sec">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-md bg-theme-orange fixed-top bg-theme-orange">
+        <nav class="navbar navbar-expand-lg bg-theme-orange fixed-top">
             <div class="container-fluid">
-                <span class="col-lg-1"></span>
-                <a class="navbar-brand col-lg-2 mt-1 me-0 theme-head-font theme-color-black" href="./index.html"><h2>{ Portfolio }</h2></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand mt-2 theme-head-font theme-color-black" href="./index.html"><h2>{ Portfolio }</h2></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav col-lg-7 justify-content-lg-center theme-main-font nav-li-font-size">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#home-sec">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
-                                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
-                            </svg> &nbsp;
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education-sec">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
-                                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
-                                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
-                            </svg> &nbsp;
-                            Education
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience-sec">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
-                                <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
-                            </svg> &nbsp;
-                            Work and Experience
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills-sec">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16">
-                                <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/>
-                            </svg> &nbsp;
-                            Skills
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-sec">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-rolodex" viewBox="0 0 16 16">
-                                <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
-                                <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"/>
-                            </svg> &nbsp;
-                            Contact
-                        </a>
-                    </li>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-lg-center theme-main-font">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home-sec">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                        </svg> &nbsp;
+                        Home
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education-sec">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                            <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+                            <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+                        </svg> &nbsp;
+                        Education
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experience-sec">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
+                            <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+                        </svg> &nbsp;
+                        Work and Experience
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills-sec">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16">
+                            <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/>
+                        </svg> &nbsp;
+                        Skills
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-sec">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-rolodex" viewBox="0 0 16 16">
+                            <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                            <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"/>
+                        </svg> &nbsp;
+                        Contact
+                    </a>
+                  </li>
                 </ul>
-                <span class="col-lg-2"></span>
               </div>
             </div>
-        </nav>
+          </nav>
+        <!-- Navbar// -->
         <div class="container-fluid mt-5">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-md-12">
                     <!-- Jumbotron -->
-                    <div class="p-5 bg-trans">
-                        <div class="container-fluid py-5">
+                    <div class="p-3 bg-trans">
+                        <div class="container-fluid py-3">
                             <div class="dev-txt-cont">
                                 <h1 class="display-5 fw-bold theme-head-font theme-color-orange theme-main-cont-h1 developer-spacing">
                                     I am Aitisam Yaseen <br /> a web <span class="developer-span">developer</span> <... /></h1>
@@ -103,11 +102,11 @@
                         <div class="container col-xxl-8 px-4 py-5">
                             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                             <div class="col-12 col-sm-12 col-lg-5">
-                                <img src="./assets/images/profile.png" class="d-block mx-lg-auto img-fluid border-double" alt="Bootstrap Themes" width="400" height="400" loading="lazy">
+                                <img src="./assets/images/profile-img.png" class="d-block mx-lg-auto img-fluid border-double" alt="Profile Photo" width="300" height="300" loading="lazy">
                             </div>
                             <div class="col-lg-7">
                                 <h2 class="display-5 fw-bold lh-1 mb-3 theme-color-black theme-head-font">Hello,</h2>
-                                <p class="lead theme-main-font theme-color-black">I’m interested in developing UX/UI designs, web apps and blockchain applications. 
+                                <p class="lead theme-main-font theme-color-black">I’m interested in developing UX/UI designs, web and blockchain applications. 
                                     I’m currently learning MERN stack development & Laravel. I want to collaborate and learn more about Mern stack, Blockchain and Laravel projects.</p>
                             </div>
                             </div>
@@ -173,7 +172,7 @@
     </section>
     <section id="experience-sec">
         <div class="my-5">
-            <div class="p-5 text-center bg-trans">
+            <div class="p-5 text-center">
               <div class="container py-5">
                 <h2 class="theme-color-black theme-head-font theme-main-cont-h1">Work and Experience</h2>
                 <div class="row exp-txt-cont mt-4 mb-4 list-styled">
@@ -190,7 +189,48 @@
                                 </div>
                               </div>
                             </div>
+                        </div>
+                        <div class="col theme-main-font theme-color-black">
+                          <div class="card shadow-sm bg-trans">
+                            <img src="./assets/images/checkout-screenshot.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <div class="card-body">
+                                <h5>SHOPP-E Customer Checkout Page</h5>
+                              <p class="card-text">Designed a Checkout page using Bootstrap. Task #002, given by Daily-UI.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <a target="_blank" href="https://maitisamy.github.io/checkout-page-bootstrap/" class="btn btn-md btn-warning">Visit Project</a>
+                                <small>24th Sept 2023</small>
+                              </div>
+                            </div>
                           </div>
+                        </div>
+                        <div class="col theme-main-font theme-color-black">
+                            <div class="card shadow-sm bg-trans">
+                              <img src="./assets/images/landing-page.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                              <div class="card-body">
+                                <h5>A Book - Landing Page</h5>  
+                                <p class="card-text">Designed a landing page using custom css and Bootstrap. Task #003, given by Daily-UI. </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <a target="_blank" href="https://maitisamy.github.io/landing-page-a-book/" class="btn btn-md btn-warning">Visit Project</a>
+                                  <small>16th September 2023</small>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col theme-main-font theme-color-black">
+                            <div class="card shadow-sm bg-trans">
+                              <img src="./assets/images/volunteer-pic.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                              <div class="card-body">
+                                <h5>Volunteer Event Signup Form</h5>
+                                <p class="card-text">Designed a Signup form using Grid system. Task #001, given by Daily-UI.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a target="_blank" href="https://maitisamy.github.io/signup-form-daily-ui/" class="btn btn-md btn-warning">Visit Project</a>
+                                    <small>23rd September 2023</small>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
                         <div class="col theme-main-font theme-color-black">
                           <div class="card shadow-sm bg-trans">
                             <img src="./assets/images/checkout-screenshot.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
@@ -230,7 +270,7 @@
                         <div class="container-fluid py-5">
                             <div class="edu-txt-cont px-5 py-5">
                                 <h3 class="display-5 px-5 fw-bold theme-head-font theme-color-orange theme-main-cont-h1 developer-spacing">Skills</h3>
-                                <h4>Professional, academic and co curricular.</h4>
+                                <h4>Professional, academic and extra skills.</h4>
                             </div>
                         </div>
                     </div>
